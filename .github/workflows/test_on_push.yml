@@ -25,5 +25,4 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          cd githubActions
-          pytest -v
+          pytest --rootdir=$(pwd)
