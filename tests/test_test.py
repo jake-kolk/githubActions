@@ -1,6 +1,6 @@
 import pytest
 from test import add
 
-def test_test(x1, x2):
-    assert add(x1, x2) == x1 + x2
-    assert add(x2,x1) == x2 + x1 
+def test_test():
+    assert add(1, 2) == 3
+    assert add(2,1) == 3
